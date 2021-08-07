@@ -45,7 +45,7 @@ person(21,12)
     
 console.log(__dirname)
 console.log(__filename)
-var main = require("./check")
+var main = require("./check")           //making object of the other file with require
 console.log(main.name2)
 
 
